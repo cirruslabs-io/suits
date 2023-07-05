@@ -7,19 +7,13 @@
     <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
     <script src="https://unpkg.com/marked/marked.min.js"></script>
     <script src="https://unpkg.com/markdown-it-imsize/dist/markdown-it-imsize.min.js"></script>
-
-    <!-- Remove the line <script src="markdown-it.js"></script> -->
     <script>
-      // Function to load and render the Markdown file
-      // Function to load and render the Markdown file
       function loadMarkdown(file) {
         fetch(file)
           .then((response) => response.text())
           .then((markdown) => {
             const md = window.markdownit();
             const result = md.render(markdown);
-
-            // Replace the width and height attributes of the img tags
             const updatedResult = result.replace(
               /<img src="(.*?)"(.*?)>/g,
               '<img src="$1" width="75%" height="auto"$2>'
@@ -32,7 +26,6 @@
           });
       }
 
-      // Function to handle menu item click
       function handleMenuItemClick(file) {
         loadMarkdown(file); // Load and render the Markdown file
       }
@@ -44,7 +37,7 @@
     </script>
     <style>
       body {
-        margin: 0; /* Remove default margin */
+        margin: 0;
       }
 
       #main-div-page {
