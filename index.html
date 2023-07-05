@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Suits User Guidance</title>
+    <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
+    <script src="markdown-it.js"></script>
+    <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
+    <script src="https://unpkg.com/marked/marked.min.js"></script>
+    <script src="https://unpkg.com/markdown-it-imsize/dist/markdown-it-imsize.min.js"></script>
+
+    <!-- Remove the line <script src="markdown-it.js"></script> -->
+    <script>
+      // Function to load and render the Markdown file
+      // Function to load and render the Markdown file
+      function loadMarkdown(file) {
+        fetch(file)
+          .then((response) => response.text())
+          .then((markdown) => {
+            const md = window.markdownit();
+            const result = md.render(markdown);
+
+            // Replace the width and height attributes of the img tags
+            const updatedResult = result.replace(
+              /<img src="(.*?)"(.*?)>/g,
+              '<img src="$1" width="75%" height="auto"$2>'
+            );
+
+            document.getElementById("content").innerHTML = updatedResult;
+          })
+          .catch((error) => {
+            console.error("Error loading Markdown file:", error);
+          });
+      }
+
+      // Function to handle menu item click
+      function handleMenuItemClick(file) {
+        loadMarkdown(file); // Load and render the Markdown file
+      }
+
+      // Call the loadMarkdown function with the default file
+      document.addEventListener("DOMContentLoaded", function () {
+        loadMarkdown("default.md");
+      });
+    </script>
+    <style>
+      body {
+        margin: 0; /* Remove default margin */
+      }
+
+      #main-div-page {
+        display: flex;
+        flex-direction: row;
+        height: 100vh; /* Adjusted height to fill the viewport */
+      }
+
+      #sidebar {
+        width: 270px;
+        background-color: #cbcfd1;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        overflow: auto;
+      }
+
+      #sidebar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #sidebar li a {
+        display: block;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+      }
+
+      #sidebar li a.active {
+        background-color: white;
+        color: #007196;
+      }
+
+      #sidebar li a:hover:not(.active) {
+        background-color: white;
+        color: #007196;
+      }
+
+      #content {
+        flex: 1;
+        padding: 20px;
+        margin-left: 270px; /* Adjusted margin to create space for the sidebar */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-div-page">
+      <div id="sidebar">
+        <ul>
+          <li>
+            <a href="#" onclick="handleMenuItemClick('doctorRegister.md')"
+              >Doctor Register</a
+            >
+          </li>
+          <li>
+            <a href="#" onclick="handleMenuItemClick('login.md')"
+              >Doctor Login</a
+            >
+          </li>
+
+          <li>
+            <a href="#" onclick="handleMenuItemClick('admin.md')"
+              >Admin Login</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div id="content"></div>
+      <!-- Container to display the rendered Markdown -->
+    </div>
+  </body>
+</html>
