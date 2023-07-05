@@ -16,7 +16,7 @@
             const result = md.render(markdown);
             const updatedResult = result.replace(
               /<img src="(.*?)"(.*?)>/g,
-              '<img src="$1" width="auto" height="auto"$2>'
+              '<img src="$1" width="70%" height="auto"$2>'
             );
 
             document.getElementById("content").innerHTML = updatedResult;
