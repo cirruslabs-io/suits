@@ -5,6 +5,7 @@
 Please click on [this site](https://suitshealthfemain.azurewebsites.net/admin) to get access for Admin Login
 
 ![Logo](./images/ad_login.jpg)
+
 After successfully logging into the system with the correct combination of username and password, the admin will be granted access to the admin dashboard. Within the dashboard, the admin will find a sidebar menu.
 
 ![Logo](./images/ad_dashboard.jpg)
