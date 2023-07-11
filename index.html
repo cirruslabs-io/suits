@@ -2,6 +2,10 @@
 <html>
   <head>
     <title>Suits User Guidance</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
     <script src="markdown-it.js"></script>
     <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
@@ -30,8 +34,20 @@
         loadMarkdown(file); // Load and render the Markdown file
       }
 
-      // Call the loadMarkdown function with the default file
       document.addEventListener("DOMContentLoaded", function () {
+        const dropdowns = document.getElementsByClassName("dropdown");
+        for (let i = 0; i < dropdowns.length; i++) {
+          dropdowns[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            const dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+
         loadMarkdown("default.md");
       });
     </script>
@@ -43,7 +59,7 @@
       #main-div-page {
         display: flex;
         flex-direction: row;
-        height: 100vh; /* Adjusted height to fill the viewport */
+        height: 100vh;
       }
 
       #sidebar {
@@ -65,7 +81,6 @@
 
       #sidebar li a {
         font-size: 18px;
-        /* font-weight: 500; */
         display: block;
         color: black;
         padding: 12px 32px;
@@ -84,10 +99,23 @@
         color: #007196;
       }
 
+      #sidebar .dropdown-content {
+        display: none;
+        padding-left: 24px;
+      }
+
+      #sidebar .dropbtn i {
+        margin-right: 8px;
+      }
+
+      #sidebar .dropdown-content a i {
+        margin-right: 8px;
+      }
+
       #content {
         flex: 1;
         padding: 20px;
-        margin-left: 270px; /* Adjusted margin to create space for the sidebar */
+        margin-left: 270px;
       }
     </style>
   </head>
@@ -95,26 +123,32 @@
     <div id="main-div-page">
       <div id="sidebar">
         <ul>
-          <li>
-            <a href="#" onclick="handleMenuItemClick('doctorRegister.md')"
-              >Doctor Register</a
-            >
+          <li class="dropdown">
+            <a href="#" class="dropbtn"
+              >Mobile App <i class="fas fa-caret-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <a href="#" onclick="handleMenuItemClick('doctorRegister.md')"
+                >Doctor Register</a
+              >
+              <a href="#" onclick="handleMenuItemClick('login.md')"
+                >Doctor Login</a
+              >
+            </div>
           </li>
-          <li>
-            <a href="#" onclick="handleMenuItemClick('login.md')"
-              >Doctor Login</a
-            >
-          </li>
-
-          <li>
-            <a href="#" onclick="handleMenuItemClick('admin.md')"
-              >Admin Login</a
-            >
+          <li class="dropdown">
+            <a href="#" class="dropbtn"
+              >Web Application <i class="fas fa-caret-down"></i
+            ></a>
+            <div class="dropdown-content">
+              <a href="#" onclick="handleMenuItemClick('admin.md')"
+                >Admin Login</a
+              >
+            </div>
           </li>
         </ul>
       </div>
       <div id="content"></div>
-      <!-- Container to display the rendered Markdown -->
     </div>
   </body>
 </html>
