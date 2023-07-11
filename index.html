@@ -2,125 +2,16 @@
 <html>
   <head>
     <title>Suits User Guidance</title>
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
-    <script src="markdown-it.js"></script>
+
     <script src="https://unpkg.com/markdown-it/dist/markdown-it.min.js"></script>
     <script src="https://unpkg.com/marked/marked.min.js"></script>
     <script src="https://unpkg.com/markdown-it-imsize/dist/markdown-it-imsize.min.js"></script>
-    <script>
-      function loadMarkdown(file) {
-        fetch(file)
-          .then((response) => response.text())
-          .then((markdown) => {
-            const md = window.markdownit();
-            const result = md.render(markdown);
-            const updatedResult = result.replace(
-              /<img src="(.*?)"(.*?)>/g,
-              '<img src="$1" width="70%" height="auto"$2>'
-            );
-
-            document.getElementById("content").innerHTML = updatedResult;
-          })
-          .catch((error) => {
-            console.error("Error loading Markdown file:", error);
-          });
-      }
-
-      function handleMenuItemClick(file) {
-        loadMarkdown(file); // Load and render the Markdown file
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const dropdowns = document.getElementsByClassName("dropdown");
-        for (let i = 0; i < dropdowns.length; i++) {
-          const dropdown = dropdowns[i];
-          const dropbtn = dropdown.querySelector(".dropbtn");
-          const dropdownContent = dropdown.querySelector(".dropdown-content");
-
-          dropbtn.addEventListener("click", function () {
-            dropdown.classList.toggle("active");
-            if (dropdown.classList.contains("active")) {
-              dropdownContent.style.display = "block";
-            } else {
-              dropdownContent.style.display = "none";
-            }
-          });
-        }
-
-        loadMarkdown("default.md");
-      });
-    </script>
-    <style>
-      body {
-        margin: 0;
-      }
-
-      #main-div-page {
-        display: flex;
-        flex-direction: row;
-        height: 100vh;
-      }
-
-      #sidebar {
-        width: 270px;
-        background-color: #cbcfd1;
-        position: fixed;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        overflow: auto;
-      }
-
-      #sidebar ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        margin-top: 1rem;
-      }
-
-      #sidebar li a {
-        font-size: 18px;
-        display: block;
-        color: black;
-        padding: 12px 32px;
-        text-decoration: none;
-        font-weight: 500;
-      }
-
-      #sidebar li a.active {
-        background-color: white;
-        color: #007196;
-        border-radius: 4px;
-      }
-
-      #sidebar li a:hover:not(.active) {
-        background-color: white;
-        color: #007196;
-      }
-
-      #sidebar .dropdown-content {
-        display: none;
-        padding-left: 24px;
-      }
-
-      #sidebar .dropbtn i {
-        margin-right: 8px;
-      }
-
-      #sidebar .dropdown-content a i {
-        margin-right: 8px;
-      }
-
-      #content {
-        flex: 1;
-        padding: 20px;
-        margin-left: 270px;
-      }
-    </style>
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="main-div-page">
@@ -128,7 +19,8 @@
         <ul>
           <li class="dropdown">
             <a href="#" class="dropbtn"
-              >Mobile App <i class="fas fa-caret-down"></i
+              >Mobile App
+              <i class="fas fa-caret-down" style="margin-left: 5rem"></i
             ></a>
             <div class="dropdown-content">
               <a href="#" onclick="handleMenuItemClick('doctorRegister.md')"
@@ -141,12 +33,43 @@
           </li>
           <li class="dropdown">
             <a href="#" class="dropbtn"
-              >Web Application <i class="fas fa-caret-down"></i
+              >Web Application
+              <i class="fas fa-caret-down" style="margin-left: 2.8rem"></i
             ></a>
             <div class="dropdown-content">
-              <a href="#" onclick="handleMenuItemClick('admin.md')"
-                >Admin Login</a
-              >
+              <div class="dropdown">
+                <a href="#" class="dropbtn"
+                  >Suitscare Network
+                  <i class="fas fa-caret-down" style="margin-left: 0.5rem"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#" onclick="handleMenuItemClick('adminLogin.md')"
+                    >Admin Login</a
+                  >
+                </div>
+              </div>
+              <div class="dropdown">
+                <a href="#" class="dropbtn"
+                  >Suits Pharma
+                  <i class="fas fa-caret-down" style="margin-left: 3rem"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#" onclick="handleMenuItemClick('pharmacyLogin.md')"
+                    >Pharmacy Login</a
+                  >
+                </div>
+              </div>
+              <div class="dropdown">
+                <a href="#" class="dropbtn"
+                  >Suits Labs
+                  <i class="fas fa-caret-down" style="margin-left: 4.2rem"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#" onclick="handleMenuItemClick('labsLogin.md')"
+                    >Labs Login</a
+                  >
+                </div>
+              </div>
             </div>
           </li>
         </ul>
