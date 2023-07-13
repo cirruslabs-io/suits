@@ -1,14 +1,10 @@
 # USER SIGNUP/SIGNIN/LOGOUT
 
-## Step 1:Access the Sign Up  page
-             
- 1. Click on the 'Sign Up' button/link to proceed on the sign Up page.
- 
+## Step 1:Access the Sign Up page
 
-<div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp1.jpg" alt="Logo" width="250">
-</div>
+1.  Click on the 'Sign Up' button/link to proceed on the sign Up page.
 
+![Logo](./images/mobile/signUp/SignUp1.jpg)
 
 ## Step 2:Provide your information
 
@@ -18,20 +14,17 @@
 
 3. Sign Up fields includes,
 
-     a. Full Name: Enter your first Name and last Name.
+   a. Full Name: Enter your first Name and last Name.
 
-     b. Mobile: Provide your valid mobile number.
+   b. Mobile: Provide your valid mobile number.
 
-     c. Password: Choose a secure password ,Ensure it meets the specified criteria (eg. minimum length,special characters)
-    
-     d. Refferal Code: If you are reffered by a User , you can enter refferal code.Which is an optional filed.
+   c. Password: Choose a secure password ,Ensure it meets the specified criteria (eg. minimum length,special characters)
 
-     e. Whatsapp number: user can enter able to enter their whatsapp number based on their wish.
+   d. Refferal Code: If you are reffered by a User , you can enter refferal code.Which is an optional filed.
 
-<div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp2.jpg" alt="Logo" width="250">
-</div>
+   e. Whatsapp number: user can enter able to enter their whatsapp number based on their wish.
 
+![Logo](./images/mobile/signUp/SignUp2.jpg)
 
 ## Step 3: Complete the Sign Up process
 
@@ -39,10 +32,7 @@
 
 2. Wait for the application to process your information, once its done you will be getting an OTP for Verification ,Enter the OTP and press on the Submit Button.
 
-<div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp3.jpg" alt="Logo" width="250">
-</div>
-
+![Logo](./images/mobile/signUp/SignUp3.jpg)
 
 ## Step 4: Logging In
 
@@ -50,33 +40,16 @@
 
 2. use your registered Mobile number and Password to log in to the application.
 
-<div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp4.jpg" alt="Logo" width="250">
-</div>
-
+![Logo](./images/mobile/signUp/SignUp4.jpg)
 
 ## Step 5:Logging Out
 
 1. Logging out through the drawer menu:
 
    a. The drawer menu is typically a side navigation panel that allows users to access different sections or features of an application.
-  
-   
 
-<div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp5.jpg" alt="Logo" width="250">
-</div>
-
-
-
+![Logo](./images/mobile/signUp/SignUp5.jpg)
 
 2. Logging out from the profile navigation menu:
 
- 
-
-
- <div style="display: flex; justify-content: center;">
-  <img src="./images/mobile/signUp/SignUp6.jpg" alt="Logo" width="250">
-</div>
-
-    
+![Logo](./images/mobile/signUp/SignUp6.jpg)

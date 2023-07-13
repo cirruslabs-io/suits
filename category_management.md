@@ -13,5 +13,3 @@
 ## Delete Category
 
 ![Logo](./images/pharma/cat-dlt.png)
-
-s
