@@ -11,7 +11,7 @@ function loadMarkdown(file) {
           const updatedAttributes = isMobileImage
             ? 'width="250px"'
             : 'width="65%" height="auto"';
-          return `<img src="${src}" ${updatedAttributes}>`;
+          return `<div style="display: flex; justify-content: center;"><img src="${src}" ${updatedAttributes}></div>`;
         }
       );
 
