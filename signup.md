@@ -1,10 +1,10 @@
-# USER SIGNUP/SIGNIN/LOGOUT
+# USER SIGNUP/SIGNIN/Logo1UT
 
 ## Step 1:Access the Sign Up page
 
 1.  Click on the 'Sign Up' button/link to proceed on the sign Up page.
 
-![Logo](./images/mobile/signUp/SignUp1.jpg)
+![Logo1](./images/mobile/signUp/SignUp1.jpg)
 
 ## Step 2:Provide your information
 
@@ -24,7 +24,7 @@
 
    e. Whatsapp number: user can enter able to enter their whatsapp number based on their wish.
 
-![Logo](./images/mobile/signUp/SignUp2.jpg)
+![Logo1](./images/mobile/signUp/SignUp2.jpg)
 
 ## Step 3: Complete the Sign Up process
 
@@ -32,7 +32,7 @@
 
 2. Wait for the application to process your information, once its done you will be getting an OTP for Verification ,Enter the OTP and press on the Submit Button.
 
-![Logo](./images/mobile/signUp/SignUp3.jpg)
+![Logo1](./images/mobile/signUp/SignUp3.jpg)
 
 ## Step 4: Logging In
 
@@ -40,7 +40,7 @@
 
 2. use your registered Mobile number and Password to log in to the application.
 
-![Logo](./images/mobile/signUp/SignUp4.jpg)
+![Logo1](./images/mobile/signUp/SignUp4.jpg)
 
 ## Step 5:Logging Out
 
@@ -48,8 +48,8 @@
 
    a. The drawer menu is typically a side navigation panel that allows users to access different sections or features of an application.
 
-![Logo](./images/mobile/signUp/SignUp5.jpg)
+![Logo1](./images/mobile/signUp/SignUp5.jpg)
 
 2. Logging out from the profile navigation menu:
 
-![Logo](./images/mobile/signUp/SignUp6.jpg)
+![Logo1](./images/mobile/signUp/SignUp6.jpg)

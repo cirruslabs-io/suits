@@ -6,7 +6,13 @@ function loadMarkdown(file) {
       const result = md.render(markdown);
       const updatedResult = result.replace(
         /<img src="(.*?)"(.*?)>/g,
-        '<img src="$1" width="65%" height="auto"$2>'
+        (match, src, attributes) => {
+          const isMobileImage = src.includes("/mobile/");
+          const updatedAttributes = isMobileImage
+            ? 'width="250px"'
+            : 'width="65%" height="auto"';
+          return `<img src="${src}" ${updatedAttributes}>`;
+        }
       );
 
       document.getElementById("content").innerHTML = updatedResult;

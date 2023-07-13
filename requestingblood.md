@@ -4,7 +4,7 @@ User Will be able to request blood through the Suits Mobile Application
 
 ## Step 1 : Once the user logged into the application, they can nagivate into SaveYo Nagivation bar of the application
 
-![Logo](./images/mobile/serach-blood-donor/blooddonor1.jpg)
+![Logo1](./images/mobile/serach-blood-donor/blooddonor1.jpg)
 
 ## Step 2: Click on Blood Requisition Form
 
@@ -25,7 +25,7 @@ The mandatory Fields include ,
 
 7. Age: Enter Age of patient.
 
-![Logo](./images/mobile/requesting-blood/bloodrequest1.jpg)
+![Logo1](./images/mobile/requesting-blood/bloodrequest1.jpg)
 
 8. Gender: Gender of the patient
 
@@ -35,7 +35,7 @@ The mandatory Fields include ,
 
 11. Request Particulars: Here The User can Check all Needed Blood particulars with needed count, also User can able to request for other particulars which are not listed and also able to add count.
 
-![Logo](./images/mobile/requesting-blood/bloodrequest2.jpg)
+![Logo1](./images/mobile/requesting-blood/bloodrequest2.jpg)
 
 12. Type of Need: User can able to select type of need.
 
@@ -45,10 +45,10 @@ The mandatory Fields include ,
 
 15. Attach File : User can able to attach medical record of patient. Which is optional field.
 
-![Logo](./images/mobile/requesting-blood/bloodrequest3.jpg)
+![Logo1](./images/mobile/requesting-blood/bloodrequest3.jpg)
 
 ## Step 3: Submit Form
 
 1.  Once you submit the form you will be getting a success Page as below.
 
-![Logo](./images/mobile/requesting-blood/bloodrequest4.jpg)
+![Logo1](./images/mobile/requesting-blood/bloodrequest4.jpg)
