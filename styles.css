@@ -9,7 +9,7 @@ body {
 }
 
 #sidebar {
-  width: 300px;
+  width: 350px;
   background-color: #cbcfd1;
   position: fixed;
   left: 0;
@@ -61,5 +61,5 @@ body {
 #content {
   flex: 1;
   padding: 20px;
-  margin-left: 300px;
+  margin-left: 400px;
 }
