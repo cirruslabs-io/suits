@@ -6,7 +6,7 @@ function loadMarkdown(file) {
       const result = md.render(markdown);
       const updatedResult = result.replace(
         /<img src="(.*?)"(.*?)>/g,
-        '<img src="$1" width="250px" height="auto"$2>'
+        '<img src="$1" width="65%" height="auto"$2>'
       );
 
       document.getElementById("content").innerHTML = updatedResult;
