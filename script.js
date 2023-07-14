@@ -32,6 +32,7 @@ function loadMarkdown(file) {
     .then((response) => response.text())
     .then((markdown) => {
       const md = window.markdownit();
+      s;
       const result = md.render(markdown);
       const updatedResult = result.replace(
         /<img src="(.*?)"(.*?)>/g,
@@ -40,7 +41,7 @@ function loadMarkdown(file) {
           const updatedAttributes = isMobileImage
             ? 'width="250px"'
             : 'width="65%" height="auto"';
-          return `<div class="zoomable-image"><img src="${src}" ${updatedAttributes}></div>`;
+          return `<div class="zoomable-image" style="display: flex; justify-content: center;"><img src="${src}" ${updatedAttributes}></div>`;
         }
       );
 
