@@ -1,3 +1,8 @@
+const linkElement = document.createElement("link");
+linkElement.rel = "stylesheet";
+linkElement.href = "./styles.css";
+document.head.appendChild(linkElement);
+
 function loadMarkdown(file) {
   fetch(file)
     .then((response) => response.text())
@@ -11,15 +16,26 @@ function loadMarkdown(file) {
           const updatedAttributes = isMobileImage
             ? 'width="250px"'
             : 'width="65%" height="auto"';
-          return `<div style="display: flex; justify-content: center;"><img src="${src}" ${updatedAttributes}></div>`;
+          return `<div class="zoomable-image"><img src="${src}" ${updatedAttributes}></div>`;
         }
       );
 
       document.getElementById("content").innerHTML = updatedResult;
+      addZoomFunctionality();
     })
     .catch((error) => {
       console.error("Error loading Markdown file:", error);
     });
+}
+
+function addZoomFunctionality() {
+  const zoomableImages = document.querySelectorAll(".zoomable-image");
+
+  zoomableImages.forEach((image) => {
+    image.addEventListener("click", function () {
+      this.classList.toggle("zoomed");
+    });
+  });
 }
 
 function handleMenuItemClick(file) {
