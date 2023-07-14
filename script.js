@@ -32,7 +32,6 @@ function loadMarkdown(file) {
     .then((response) => response.text())
     .then((markdown) => {
       const md = window.markdownit();
-      s;
       const result = md.render(markdown);
       const updatedResult = result.replace(
         /<img src="(.*?)"(.*?)>/g,
