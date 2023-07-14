@@ -1,8 +1,6 @@
 const css = `
   .zoomable-image {
     cursor: zoom-in;
-    display: flex;
-    justify-content: center;
   }
 
   .zoomable-image.zoomed {
@@ -43,7 +41,7 @@ function loadMarkdown(file) {
           const updatedAttributes = isMobileImage
             ? 'width="250px"'
             : 'width="65%" height="auto"';
-          return `<div class="zoomable-image" ><img src="${src}" ${updatedAttributes}></div>`;
+          return `<div class="zoomable-image" style="display: flex; justify-content: center;"><img src="${src}" ${updatedAttributes}></div>`;
         }
       );
 
