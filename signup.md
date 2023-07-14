@@ -1,4 +1,4 @@
-# USER SIGNUP/SIGNIN/Logo1UT
+# USER SIGNUP/ SIGNIN/ LOGOUT
 
 ## Step 1:Access the Sign Up page
 
