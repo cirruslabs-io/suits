@@ -1,4 +1,4 @@
-# Lab Test Category Management
+# Lab Tests Category Management
 
 ![Logo](./images/labtest/lab-dash.png)
 
