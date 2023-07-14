@@ -86,3 +86,14 @@ body {
   max-width: 90%;
   max-height: 90%;
 }
+
+.dropbtn {
+  position: relative;
+}
+
+.dropbtn i {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
