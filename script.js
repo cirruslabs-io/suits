@@ -1,7 +1,31 @@
-const linkElement = document.createElement("link");
-linkElement.rel = "stylesheet";
-linkElement.href = "./styles.css";
-document.head.appendChild(linkElement);
+const css = `
+  .zoomable-image {
+    cursor: zoom-in;
+  }
+
+  .zoomable-image.zoomed {
+    cursor: zoom-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+  }
+
+  .zoomable-image.zoomed img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+`;
+
+const styleElement = document.createElement("style");
+styleElement.innerHTML = css;
+document.head.appendChild(styleElement);
 
 function loadMarkdown(file) {
   fetch(file)
