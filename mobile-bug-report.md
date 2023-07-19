@@ -1,4 +1,4 @@
-# Refer a contact
+# Bug Reporting
 
 ## Step 1 : Access the Bugs Report page
 

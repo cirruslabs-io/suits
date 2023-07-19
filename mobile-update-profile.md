@@ -1,4 +1,4 @@
-# Refer a contact
+# Update Profile
 
 ## Step 1 : Access the My Profile page
 
@@ -20,7 +20,7 @@
 
 4. To delete the profile image, select the cross icon and click on yes in the alert box.
 
-5. Select Update button in the buttom to update the changes and redirect to My profile Page.
+5. Select Update button in the bottom to update the changes and redirect to My profile Page.
 
 ![Logo1](./images/mobile/single-page/profile2.jpg)
 
