@@ -10,7 +10,7 @@ User can Request For Physical Emergency Card Through Suits App
 
 ![Logo1](./images/mobile/get-physical-card/physicalCard1.jpg)
 
-3. Once Clicks On Continue, Navigate into CheckOut Screen ,Where User CAn review the details.
+3. Once Clicks On Continue, Navigate into CheckOut Screen, Where User Can review the details.
 
 ![Logo1](./images/mobile/get-physical-card/physicalCard2.jpg)
 

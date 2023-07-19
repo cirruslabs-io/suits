@@ -34,13 +34,21 @@
 
 ![Logo1](./images/mobile/signUp/SignUp3.jpg)
 
+3. Once you have successfully Signed Up, you will be redirected to the login page.
+
+![Logo1](./images/mobile/signUp/SignUp4.jpg)
+
 ## Step 4: Logging In
 
-1. Once you have successfully Signed Up, you will be redirected to the login page.
+1. If user is not logged In then user will reach the SignIn page when App is opened. 
 
 2. use your registered Mobile number and Password to log in to the application.
 
 ![Logo1](./images/mobile/signUp/SignUp4.jpg)
+
+3. All new users are supposed to add emergency contacts before proceding. Click on Add Them Now to add emergency contacts.
+
+![Logo1](./images/mobile/ice-contacts/AddICE1.jpg)
 
 ## Step 5:Logging Out
 
