@@ -6,6 +6,10 @@
 
 ![Logo1](./images/mobile/signUp/SignUp1.jpg)
 
+2.  Click on the 'Sign Up' button/link to proceed on the sign Up mobile number verification page. If mobile number is already registered then you will get an error message, otherwise user will be redirected to Signup page where user can fill the credentials.
+
+![Logo1](./images/mobile/signUp/SignUp2.0.jpg)
+
 ## Step 2:Provide your information
 
 1. On the Sign Up page, you will see a form with various fileds to enter your information.
@@ -16,15 +20,12 @@
 
    a. Full Name: Enter your first Name and last Name.
 
-   b. Mobile: Provide your valid mobile number.
+   b. Password: Choose a secure password ,Ensure it meets the specified criteria (eg. minimum length,special characters)
 
-   c. Password: Choose a secure password ,Ensure it meets the specified criteria (eg. minimum length,special characters)
+   c. Refferal Code: If you are reffered by a User , you can enter refferal code.Which is an optional filed.
 
-   d. Refferal Code: If you are reffered by a User , you can enter refferal code.Which is an optional filed.
 
-   e. Whatsapp number: user can enter able to enter their whatsapp number based on their wish.
-
-![Logo1](./images/mobile/signUp/SignUp2.jpg)
+![Logo1](./images/mobile/signUp/SignUp2.1.jpg)
 
 ## Step 3: Complete the Sign Up process
 
