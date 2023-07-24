@@ -1,6 +1,6 @@
 # Pharmacy/General Module
 
-User can able to Bay Pharmacy products as well as General Health Products and Surgicals Through SUITS mobile Application.
+User can able to pay for Pharmacy products as well as General Health Products and Surgicals Through SUITS mobile Application.
 
 1. User Will able to find Pharmacy and General in Network Section of Application.
 
@@ -12,19 +12,19 @@ User can able to Bay Pharmacy products as well as General Health Products and Su
 
 ![Logo1](./images/mobile/pharma/pharma2.jpg)
 
-3. User can Able to See Products of General/Pharama Based on categories , Once click on any of the category ,also they can see prodcuts listed in home screen as well.
+3. User can Able to See Products of General/Pharmay Based on categories , Once click on any of the category, also they can see products listed in home screen as well.
 
 ![Logo1](./images/mobile/pharma/pharma3.jpg)
 
-4. User can add the Interested products into their cart.
+4. User can add the Intrested products into their cart.
 
 ![Logo1](./images/mobile/pharma/pharma4.jpg)
 
-5. User Can able to see their Added Cart Products Once Clcks on the Card icon Which Placed in the right most corner of the Product/General Screens.
+5. User Can able to see their Added Cart Products Once Clicked on the Cart icon Placed in the right most corner of the Pharmay/General Screens.
 
 ![Logo1](./images/mobile/pharma/pharma5.jpg)
 
-6. there User can Able to apply the Coupon Code Which User can Copy From Coupon Screen Once after Clicking on View Coupon.and once the user applied the coupon they can they will get discount of price.
+6. there User can Able to apply the Coupon Code Which User can Copy From Coupon Screen Once after Clicking on View Coupon.and once the user applied the coupon they will get discount of price.
 
 ![Logo1](./images/mobile/pharma/pharma6.jpg)
 

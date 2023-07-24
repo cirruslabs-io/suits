@@ -29,7 +29,7 @@ The mandatory Fields include ,
 
 8. Gender: Gender of the patient
 
-9. Blood Group: Select Patient Blood Group From the frop down.
+9. Blood Group: Select Patient Blood Group From the drop down.
 
 10. IP Number:
 

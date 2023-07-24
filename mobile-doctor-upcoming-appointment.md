@@ -1,4 +1,4 @@
-# View upcoming doctor appointments
+# View upcoming and history of doctor appointments
 
 Users can easily view all their scheduled appointments by clicking on "My Doctor Appointments" in the sidebar menu. This section will display upcoming and past appointments, including essential details like the doctor's name, appointment date, and location.
 
