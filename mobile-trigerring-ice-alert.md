@@ -1,4 +1,4 @@
-# Trigerring ICE Alert
+# Triggering ICE Alert
 
 ## Step 1 : Location on
 
@@ -34,7 +34,7 @@
 
 ## Step 3 : Receiving Alert
 
-1. In moblie user will receive an alert notification in the notification bar along with an alarm, to notify the user regarding the medical emergency.
+1. In mobile user will receive an alert notification in the notification bar along with an alarm, to notify the user regarding the medical emergency.
 
 ![Logo1](./images/mobile/ice-alert/ICE7.jpg)
 

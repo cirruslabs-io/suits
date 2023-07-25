@@ -16,7 +16,7 @@ User can able to pay for Pharmacy products as well as General Health Products an
 
 ![Logo1](./images/mobile/pharma/pharma3.jpg)
 
-4. User can add the Intrested products into their cart.
+4. User can add the Interested products into their cart.
 
 ![Logo1](./images/mobile/pharma/pharma4.jpg)
 
@@ -30,7 +30,7 @@ User can able to pay for Pharmacy products as well as General Health Products an
 
 ![Logo1](./images/mobile/pharma/pharma7.jpg)
 
-7.User can Continue thier Checkout Process For buying their Interested products.They can add or select their required Address
+7.User can Continue their Checkout Process For buying their Interested products.They can add or select their required Address
 
 ![Logo1](./images/mobile/pharma/pharma8.jpg)
 
@@ -38,7 +38,7 @@ User can able to pay for Pharmacy products as well as General Health Products an
 
 ![Logo1](./images/mobile/pharma/pharma9.jpg)
 
-9. Once the User reviewd the order Summary , They can Continue the Order.
+9. Once the User reviewed the order Summary , They can Continue the Order.
 
 ![Logo1](./images/mobile/pharma/pharma10.jpg)
 

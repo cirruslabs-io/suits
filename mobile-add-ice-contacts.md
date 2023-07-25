@@ -4,7 +4,7 @@
 
 1.  There are 3 ways to reach this page to add emergency contacts.
 
-      a. When the User is logging In for First Time after signup, user will get a Page which will ask the user to add high priority emergency contacts.From this page the user can nagivate into two pages.
+      a. When the User is logging In for First Time after SignUp, user will get a Page which will ask the user to add high priority emergency contacts.From this page the user can navigate into two pages.
 
 ![Logo1](./images/mobile/ice-contacts/AddICE1.jpg)
             
@@ -46,7 +46,7 @@
 
 ## Step 4 : Update Emergency Contacts
 
-1. If there is no validation error after selecting the UPDATE buttton, user will be given some option
+1. If there is no validation error after selecting the UPDATE button, user will be given some option
 
 2. User can select the Go To Home button to reach the ICE main page.
 

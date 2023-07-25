@@ -38,7 +38,7 @@ Our platform's commitment to providing a top-notch user experience extends to th
 
 ![Alt text](images/mobile/doctor/25.jpg)
 
-## Offline Consultaion Booking
+## Offline Consultation Booking
 
 After selecting a top specialty, the user can view a list of doctors in that field with their names, details, and fees. They can then choose their preferred doctor and click on the "Book Hospital Visit" button to initiate the appointment booking process.
 
@@ -84,9 +84,9 @@ This intuitive and easy-to-navigate "Bookings" page empowers the user to stay in
 
 ![Alt text](images/mobile/doctor/17.jpg)
 
-## Online Consultaion Booking
+## Online Consultation Booking
 
-After selecting a top specialty, the user can view a list of doctors in that field with their names, details, and fees. They can then choose their preferred doctor who are available for online consultation at the preffered time and click on the "Book Video Consult" button to initiate the appointment booking process.
+After selecting a top specialty, the user can view a list of doctors in that field with their names, details, and fees. They can then choose their preferred doctor who are available for online consultation at the preferred time and click on the "Book Video Consult" button to initiate the appointment booking process.
 
 ![Alt text](images/mobile/doctor/6.jpg)
 

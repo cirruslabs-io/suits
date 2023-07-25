@@ -6,7 +6,7 @@ When you access the product listing page, you will find a comprehensive list of 
 
 The search option allows you to enter relevant keywords or product names, helping you quickly locate specific products within the list. This functionality streamlines the process of finding desired items based on your search criteria.
 
-Additionally, you can filter products based on their product type. The available options for product type are "Pharma" and "General." By selecting one of these options, the product list will be refined to display only products belonging to the chosen type. This filtering feature enables you to focus on specific categories of products based on their intended use or classification.
+Additionally, you can filter products based on their product type. The available options for product type are "Pharmacy" and "General." By selecting one of these options, the product list will be refined to display only products belonging to the chosen type. This filtering feature enables you to focus on specific categories of products based on their intended use or classification.
 
 Furthermore, you can filter products based on their status, which can be classified as "Active" or "Inactive." By selecting the desired status option, the product list will be adjusted accordingly, displaying only the products that match the chosen status. This filter allows you to easily identify and manage active or inactive products within the system.
 

@@ -2,7 +2,7 @@
 
 The Suits App Providing the facilities for Lab Tests and Health packages
 
-1. User can get into Lab Section through Network nagivation Bar present in suits app.
+1. User can get into Lab Section through Network navigation Bar present in suits app.
 
 ![Logo1](./images/mobile/lab-module/Lab0.jpg)
 
@@ -20,7 +20,7 @@ The Suits App Providing the facilities for Lab Tests and Health packages
 
 ![Logo1](./images/mobile/lab-module/Lab4.jpg)
 
-5. User is interested in a particular Lab Health Package and Click on Book Now ,App will navigate into Adress Selection page where user can add or choose the interested Adress.
+5. User is interested in a particular Lab Health Package and Click on Book Now ,App will navigate into Address Selection page where user can add or choose the interested Address.
 
 6. Once Click on Continue App Will redirect to the select Date and Time page ,where user can select interested date and time .
 

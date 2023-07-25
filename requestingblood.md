@@ -2,7 +2,7 @@
 
 User Will be able to request blood through the Suits Mobile Application
 
-## Step 1 : Once the user logged into the application, they can nagivate into SaveYo Nagivation bar of the application
+## Step 1 : Once the user logged into the application, they can navigate into SaveYo Navigation bar of the application
 
 ![Logo1](./images/mobile/serach-blood-donor/blooddonor1.jpg)
 

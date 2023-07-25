@@ -1,8 +1,8 @@
-# Download ICE/Saveyo Card
+# Download ICE/SaveYO Card
 
 ## Step 1 : Access the Download Card page
 
-1.  There are 2 main ways to reach this page to download ICE/Saveyo card.
+1.  There are 2 main ways to reach this page to download ICE/SaveYO card.
 
       a. To access the page, choose the Download Card option from the Navigation drawer.
 

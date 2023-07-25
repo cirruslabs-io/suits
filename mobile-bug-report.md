@@ -10,7 +10,7 @@
 
 1. Fill all the mandatory fields in the form and attach a screen shot for reference.
 
-2. Discription should be more than 25 characters.
+2. Description should be more than 25 characters.
 
 3. Screen shot image size should be lessthan 2MB.
 

@@ -6,13 +6,13 @@
 
 ![Logo1](./images/mobile/signUp/SignUp1.jpg)
 
-2.  Click on the 'Sign Up' button/link to proceed on the sign Up mobile number verification page. If mobile number is already registered then you will get an error message, otherwise user will be redirected to Signup page where user can fill the credentials.
+2.  Click on the 'Sign Up' button/link to proceed on the sign Up mobile number verification page. If mobile number is already registered then you will get an error message, otherwise user will be redirected to SignUp page where user can fill the credentials.
 
 ![Logo1](./images/mobile/signUp/SignUp2.0.jpg)
 
 ## Step 2:Provide your information
 
-1. On the Sign Up page, you will see a form with various fileds to enter your information.
+1. On the Sign Up page, you will see a form with various fields to enter your information.
 
 2. Fill the required fields which are indicate as mandatory.
 
@@ -22,7 +22,7 @@
 
    b. Password: Choose a secure password ,Ensure it meets the specified criteria (eg. minimum length,special characters)
 
-   c. Refferal Code: If you are reffered by a User , you can enter refferal code.Which is an optional filed.
+   c. Referral Code: If you are referred by a User , you can enter referral code.Which is an optional filed.
 
 
 ![Logo1](./images/mobile/signUp/SignUp2.1.jpg)
@@ -47,7 +47,7 @@
 
 ![Logo1](./images/mobile/signUp/SignUp4.jpg)
 
-3. All new users are supposed to add emergency contacts before proceding. Click on Add Them Now to add emergency contacts.
+3. All new users are supposed to add emergency contacts before proceeding. Click on Add Them Now to add emergency contacts.
 
 ![Logo1](./images/mobile/ice-contacts/AddICE1.jpg)
 

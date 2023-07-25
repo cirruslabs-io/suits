@@ -2,7 +2,7 @@
 
 <!-- ## Step 1: Nearby Ambulance -->
 
-1. Select SANS from bottom navigation to see nearby ambulaces.
+1. Select SANS from bottom navigation to see nearby ambulances.
 
 ![Logo1](./images/mobile/single-page/sans1.jpg)
 
