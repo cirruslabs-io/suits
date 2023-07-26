@@ -18,7 +18,7 @@ User can Request For Physical Emergency Card Through Suits App
 
 ![Logo1](./images/mobile/get-physical-card/physicalCard3.jpg)
 
-![Logo1](./images/mobile/get-physical-card/physicalCard4.jpg)
+![Logo1](images/mobile/get-physical-card/PhysicalCard4.jpg)
 
 5. Once the payment is success, user will able to see the below page from where the user can able to navigate into home page.
 
