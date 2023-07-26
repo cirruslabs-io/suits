@@ -18,7 +18,7 @@
 
 ![Logo1](./images/mobile/ice-alert/ICE3.jpg)
 
-      a. If user selects No, user can view the map with current location, ambulance, hospital, blood bank and scare details.
+      a. If user selects No, user can view the map with current location, ambulance, hospital, blood bank and S Care details.
 
 ![Logo1](./images/mobile/ice-alert/ICE6.jpg)
 
