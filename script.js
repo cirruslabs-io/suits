@@ -83,6 +83,20 @@ function handleMenuItemClick(file) {
   loadMarkdown(file); // Load and render the Markdown file
 }
 
+function handleMenuItemClick(file) {
+  // Remove the "active" class from all menu items
+  const menuItems = document.querySelectorAll(".dropdown-content a");
+  menuItems.forEach((item) => item.classList.remove("active"));
+
+  // Add the "active" class to the clicked menu item
+  const menuItem = document.getElementById(file);
+  menuItem.classList.add("active");
+
+  // Here, you can handle the logic to load the corresponding content based on the clicked menu item
+  // For demonstration purposes, I'll just log the clicked menu item's ID
+  console.log("Clicked Menu Item: ", menuItem.id);
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const dropdowns = document.getElementsByClassName("dropdown");
   for (let i = 0; i < dropdowns.length; i++) {
