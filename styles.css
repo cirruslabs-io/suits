@@ -40,7 +40,16 @@ body {
   border-radius: 4px;
 }
 
+/* No changes for the previous styles */
+
+/* Updated styles for the active and selected menu item */
+.sidebar .active,
+.sidebar .selected,
 #sidebar li a:hover:not(.active) {
+  background-color: #007bff; /* Set the color for the active and selected menu items */
+}
+
+#sidebar li a:not(.active):hover {
   background-color: white;
   color: #007196;
 }
