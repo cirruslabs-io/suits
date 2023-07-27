@@ -64,33 +64,21 @@ function addZoomFunctionality() {
 
 function handleMenuItemClick(file) {
   const menuItems = document.querySelectorAll(".dropdown-content a");
-  console.log("Clicked file:", file);
 
-  // Rest of the function code ...
-
-  // Check if the clicked submenu item is already active
-  const isAlreadyActive = document
-    .getElementById(`${file.replace(".md", "")}-menu`)
-    .classList.contains("active");
-
-  // Remove the "active" class from all submenu items
-  menuItems.forEach((menuItem) => {
-    menuItem.classList.remove("active");
-  });
-
-  // Add the "active" class to the clicked submenu item if it's not already active
-  if (!isAlreadyActive) {
-    const clickedMenuItem = document.getElementById(
-      `${file.replace(".md", "")}-menu`
-    );
-    if (clickedMenuItem) {
-      clickedMenuItem.classList.add("active");
-    }
-  }
-  console.log(
-    "Active class added:",
-    clickedMenuItem.classList.contains("active")
+  // Toggle the "active" class on the clicked submenu item
+  const clickedMenuItem = document.getElementById(
+    `${file.replace(".md", "")}-menu`
   );
+  if (clickedMenuItem) {
+    clickedMenuItem.classList.toggle("active");
+  }
+
+  // Remove the "active" class from other submenu items
+  menuItems.forEach((menuItem) => {
+    if (menuItem !== clickedMenuItem) {
+      menuItem.classList.remove("active");
+    }
+  });
 
   loadMarkdown(file); // Load and render the Markdown file
 }
