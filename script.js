@@ -63,6 +63,21 @@ function addZoomFunctionality() {
 }
 
 function handleMenuItemClick(file) {
+  const menuItems = document.querySelectorAll(".dropdown-content a");
+
+  // Remove the "active" class from all menu items
+  menuItems.forEach((menuItem) => {
+    menuItem.classList.remove("active");
+  });
+
+  // Add the "active" class to the clicked menu item
+  const clickedMenuItem = document.querySelector(
+    `.dropdown-content a[href="${file}"]`
+  );
+  if (clickedMenuItem) {
+    clickedMenuItem.classList.add("active");
+  }
+
   loadMarkdown(file); // Load and render the Markdown file
 }
 
