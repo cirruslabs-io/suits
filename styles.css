@@ -46,7 +46,7 @@ body {
 .sidebar .active,
 .sidebar .selected,
 #sidebar li a:hover:not(.active) {
-  background-color: #007bff; /* Set the color for the active and selected menu items */
+  background-color: white; /* Set the color for the active and selected menu items */
 }
 
 #sidebar li a:not(.active):hover {
