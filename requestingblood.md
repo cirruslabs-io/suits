@@ -1,6 +1,6 @@
 # Blood Requesting Form
 
-User Will be able to request blood through the Suits Mobile Application
+User will be able to request blood through the Suits Mobile Application
 
 ## Step 1 : Once the user logged into the application, they can navigate into SaveYo Navigation bar of the application
 
@@ -8,8 +8,8 @@ User Will be able to request blood through the Suits Mobile Application
 
 ## Step 2: Click on Blood Requisition Form
 
-Once You enter into the Blood Requisition From , You can able to Fill all the mandatory fields
-The mandatory Fields include ,
+Once You enter into the Blood Requisition From, You can be able to fill all the mandatory fields
+The mandatory fields include,
 
 1. State: Select respective state
 
@@ -21,7 +21,7 @@ The mandatory Fields include ,
 
 5. Treating Doctor Name: Enter the Treating Doctor Name.
 
-6. Patient's Name: Enter the patient Name
+6. Patient's Name: Enter the Patient Name
 
 7. Age: Enter Age of patient.
 
