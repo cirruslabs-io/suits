@@ -12,6 +12,22 @@
     <script src="https://unpkg.com/marked/marked.min.js"></script>
     <script src="https://unpkg.com/markdown-it-imsize/dist/markdown-it-imsize.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+      function handleMenuItemClick(file) {
+        // Remove the "active" class from all menu items
+        const menuItems = document.querySelectorAll(".dropdown-content a");
+        menuItems.forEach((item) => item.classList.remove("active"));
+
+        // Add the "active" class to the clicked menu item
+        const menuItem = document.getElementById(file);
+        menuItem.classList.add("active");
+
+        // Here, you can handle the logic to load the corresponding content based on the clicked menu item
+        // For demonstration purposes, I'll just log the clicked menu item's ID
+        console.log("Clicked Menu Item: ", menuItem.id);
+      }
+    </script>
   </head>
   <body>
     <div id="main-div-page">

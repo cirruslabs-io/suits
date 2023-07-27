@@ -40,16 +40,7 @@ body {
   border-radius: 4px;
 }
 
-/* No changes for the previous styles */
-
-/* Updated styles for the active and selected menu item */
-.sidebar .active,
-.sidebar .selected,
 #sidebar li a:hover:not(.active) {
-  background-color: white; /* Set the color for the active and selected menu items */
-}
-
-#sidebar li a:not(.active):hover {
   background-color: white;
   color: #007196;
 }
@@ -65,6 +56,11 @@ body {
 
 #sidebar .dropdown-content a i {
   margin-right: 8px;
+}
+
+#sidebar .dropdown-content a.active {
+  background-color: #f0f0f0;
+  /* Add any other styles to highlight the active menu item */
 }
 
 #content {
