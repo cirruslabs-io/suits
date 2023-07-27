@@ -64,6 +64,9 @@ function addZoomFunctionality() {
 
 function handleMenuItemClick(file) {
   const menuItems = document.querySelectorAll(".dropdown-content a");
+  console.log("Clicked file:", file);
+
+  // Rest of the function code ...
 
   // Check if the clicked submenu item is already active
   const isAlreadyActive = document
@@ -84,6 +87,10 @@ function handleMenuItemClick(file) {
       clickedMenuItem.classList.add("active");
     }
   }
+  console.log(
+    "Active class added:",
+    clickedMenuItem.classList.contains("active")
+  );
 
   loadMarkdown(file); // Load and render the Markdown file
 }
