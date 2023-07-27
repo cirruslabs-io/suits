@@ -58,11 +58,6 @@ body {
   margin-right: 8px;
 }
 
-#sidebar .dropdown-content a.active {
-  background-color: #f0f0f0;
-  /* Add any other styles to highlight the active menu item */
-}
-
 #content {
   flex: 1;
   padding: 20px;
