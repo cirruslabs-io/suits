@@ -65,14 +65,14 @@ function addZoomFunctionality() {
 function handleMenuItemClick(file) {
   const menuItems = document.querySelectorAll(".dropdown-content a");
 
-  // Remove the "active" class from all menu items
+  // Remove the "active" class from all submenu items
   menuItems.forEach((menuItem) => {
     menuItem.classList.remove("active");
   });
 
-  // Add the "active" class to the clicked menu item
-  const clickedMenuItem = document.querySelector(
-    `.dropdown-content a[href="${file}"]`
+  // Add the "active" class to the clicked submenu item
+  const clickedMenuItem = document.getElementById(
+    `${file.replace(".md", "")}-menu`
   );
   if (clickedMenuItem) {
     clickedMenuItem.classList.add("active");
